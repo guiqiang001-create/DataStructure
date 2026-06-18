@@ -13,6 +13,7 @@ int main(){
     //printf("%d\n",findNode(head,2)->data);
     //freeList(&head);
     printList(head);
+    printf("Hello,Git！"\n);
 
     return 0;
 }
