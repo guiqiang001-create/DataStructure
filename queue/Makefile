@@ -1,2 +1,7 @@
+CC = gcc
+
 queue: queue.c main.c
-	gcc queue.c main.c -o queue
+	$(CC) queue.c main.c -o queue
+
+clean:
+	rm -f queue

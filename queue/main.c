@@ -12,5 +12,7 @@ int main(){
         queue_pop(&q,&pop_val);
         printf("%d\n",pop_val);
     }
+
+    printf("你好！！");
     return 0;
 }
